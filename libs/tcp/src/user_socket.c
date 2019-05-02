@@ -28,7 +28,7 @@ int socket_timeout(int sockfd, int s);
 int socket_connect(int sockfd, char* server, int port);
 
 
-int create_connect(char *host, int port, int s)
+int create_connectx(char *host, int port, int s)
 {
     int re = -1;
     int sock_fd = -1;

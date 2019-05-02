@@ -10,6 +10,6 @@
 #ifndef __USER_SOCKET_H__
 #define __USER_SOCKET_H__
 
-int create_connect(char *host, int port, int s);
+int create_connectx(char *host, int port, int s);
 
 #endif
