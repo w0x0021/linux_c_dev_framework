@@ -9,6 +9,6 @@
 #ifndef __EXAMPLELIB_H__
 #define __EXAMPLELIB_H__
 
-void lib_example(const char *who);
+void lib_example_echo(const char *content);
 
 #endif

@@ -9,7 +9,7 @@
 
 #include <stdio.h>
 
-void lib_example(const char *who)
+void lib_example_echo(const char *content)
 {
-    printf("%s call lib_example \n", who);
+    printf("%s  \n", content);
 }
