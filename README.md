@@ -1,4 +1,26 @@
 
+# 20190504
+
+> 1、完善Network库目录
+
+**查看 libs/network/user_socket.h 文件**
+
+- 增加带超时参数的TCP客户端发送数据 socket_send()
+- 增加带超时参数的TCP客户端接收数据 socket_recv()
+- 优化socket超时函数
+
+
+> 2、增加HTTP POST提交的简单应用库和例程
+
+**查看 libs/network/user_http.h 文件**
+
+- 例程存放于simple_apps文件夹内
+
+> 3、上一版本库文件与程序代码全部移动到misc目录
+
+
+# 20190501
+
 - 本仓库为Linux系统下的C语言快速开发框架,创建此仓库的目的在于收集代码库并共享
 
 - 如果有任何人以任何形式需要，均可免费下载使用
